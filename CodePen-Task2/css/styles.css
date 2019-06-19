@@ -1,0 +1,53 @@
+.firstSection{
+    margin-bottom: 10px;
+}
+
+.firstSection h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.firstSection p{
+    font-style: italic;
+    color: black;
+}
+
+.secondSection{
+}
+
+.secondSection{
+    margin-bottom: 10px;
+    font-style: italic;
+    color: black;
+}
+
+.secondSection ol li{
+    white-space: pre;
+    font-family: monospace;
+}
+
+#blueHiderLinkThing{
+    color: blue; 
+    text-decoration: underline; 
+    cursor: pointer;
+}
+
+.thirdSection #list1{
+    visibility: hidden;
+}
+
+#list1 ol li{
+    text-indent: 10px;
+}
+
+ol li span{
+    font-weight: bold;
+    color: blue;
+    display: inline;
+}
+
+.note p{
+    color: aqua;
+    background: blue;
+    padding: 10px;
+}
