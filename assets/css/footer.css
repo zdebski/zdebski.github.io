@@ -6,11 +6,11 @@ footer {
 }
 
 .footer-left a {
-	color: #ddd;
+	color: rgb(221, 221, 221);
 	border-bottom: 1px dashed rgb(221, 221, 221);
 }
 .footer-left a:hover, .footer-left a:focus {
-	color: #ddd;
+	color: rgb(221, 221, 221);
 	border: 0;
 }
 
@@ -21,7 +21,7 @@ footer {
 .footer-right a {
 	margin: 0 6px;
     font-size: 32px;
-    color: #aaa;
+    color: rgb(170, 170, 170);
 }
 .footer-right a:hover, .footer-right a:focus {
 	 color: rgb(238, 238, 238);
