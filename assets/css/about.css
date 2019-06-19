@@ -1,0 +1,104 @@
+/***** About us *****/
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap');
+
+section.sec1{
+    margin: 0px;
+    padding: 0;
+    background: #C1D72E;
+}
+
+section.sec1::before{
+    background-image: url(/assets/img/section/paint_brush.png);
+    background-repeat: repeat-x;
+    content: "";
+    display: table;
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
+}
+
+.about-us-container{
+    height: auto;
+}
+ 
+.about-us-box {
+    margin-top: 100px;
+}
+ 
+.about-us-box-text {
+    padding-right: 30px;
+    text-align: center;
+}
+ 
+.about-us-box-text h3 {
+    margin-top: 0;
+}
+ 
+.about-us-box-text .medium-paragraph {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-us-box-text img{
+    width: 180px;
+}
+ 
+.about-us-box-img{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 64px;
+}
+
+.about-us-box-img img {
+    border-radius: 4px;
+}
+
+.img-fluid{
+    width: 7rem;
+
+}
+
+.section1-heading{
+    position: relative;
+    top: 50px; left: 0; right: 0;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #2D2A6E;
+}
+
+h3, h1{
+    padding: 3px;
+    font-family: 'Caveat Brush', 'cursive';
+
+}
+
+h3{
+    font-weight: bold;
+    color: #DC0602;
+}
+
+
+.text-center{
+    font-family: 'Righteous', cursive;
+    font-size: 1.2em;
+    color: #2D2A6E;
+    padding: 10px;
+}
+
+/* Bottle */
+
+.about-us-box{
+    position: relative;
+    top: -30px; left: 0; right: 0;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .about-us-box-text{
+        margin-left: 3.25em !important;
+
+    }
+
+  }
