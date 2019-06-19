@@ -84,7 +84,7 @@ class Slider {
     anime(Object.assign({}, self.baseAnimeSettings, {
       targets: prevSlide,
       rotate: [0, -90 * dir + 'deg'],
-      translateX: [0, -100 * dir + '%'],
+      translateX: [0, -150 * dir + '%'],
       complete: function(anim) {
         self.isAnimating = false;
         prevSlide.classList.remove("slider-list-item_active");
