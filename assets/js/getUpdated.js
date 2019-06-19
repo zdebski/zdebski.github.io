@@ -27,7 +27,7 @@ myform.submit(function(event){
 });
     
 (function(){
-    emailjs.init("user_soVpI9Xjyn9JLidwJuzkP");
+    emailjs.init("");
  })();
     
 
