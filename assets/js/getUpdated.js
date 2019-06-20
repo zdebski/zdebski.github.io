@@ -29,6 +29,23 @@ myform.submit(function(event){
 (function(){
     emailjs.init("user_soVpI9Xjyn9JLidwJuzkP");
  })();
-    
+
+ $('input[type="email-text"]')
+	.on("invalid", function(){
+      onchange = this.setCustomValidity("Dupa");
+
+		return this.setCustomValidity("Invalid email address");
+	})
+	.on("input", function(){
+		return this.setCustomValidity('');
+   });
+   
+ $('input[type="text"]')
+	.on("invalid", function(){
+		return this.setCustomValidity("Invalid name (only letters) or not provided");
+	})
+	.on("input", function(){
+		return this.setCustomValidity('');
+	});
 
     })
