@@ -241,7 +241,7 @@ body  {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 28px;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 35px;
   padding: 8px 0 16px;
 
 }
@@ -367,6 +367,7 @@ body  {
     max-width: 220px;
     margin-top: 20px;
     font-size: 2.5vw;
+    line-height: 30px;
     font-weight: bold;
   }
 
